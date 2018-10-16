@@ -1,21 +1,6 @@
-<!-- header file contains navbar -->
-
-@extends('includes.head')
-<header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">First laravel homework</a>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+@extends('layouts.content')
+@section('content')
+    <div class="form-group">
+        <h1 class="text-secondary">This is Home Page</h1>
+    </div>
+@stop
