@@ -7,8 +7,8 @@
 <div class="container">
     @include('includes.header1')
     <main role="main">
-        @yield('content')
-        @yield('content')
+        @yield('structure')
+        @yield('structure')
     </main>
 </div>
 <footer class="container-fluid bg-dark text-white text-center">
