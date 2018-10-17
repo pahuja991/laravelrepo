@@ -1,3 +1,3 @@
-@extends('layouts.content')
-@section('content')
+@extends('layouts.structure')
+@section('structure')
 @stop

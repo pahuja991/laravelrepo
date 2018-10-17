@@ -1,6 +1,6 @@
 <!-- header file contains navbar -->
 
-@extends('includes.head')
+@extends('includes.h1')
 <header>
     <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
         <div class="container">
